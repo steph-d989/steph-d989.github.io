@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html"><b>Home</b></a></li>
+                <li><a href="./biografia.html"><b>Biografia</b></a></li>
+                <li><a href="./portfolio.html"><b>Portfolio</b></a></li>
+                <li><a href="#"><b>Contacto</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cuerpoPagina">
+        <p id="contactForm">
+        <form action="contacto">
+            <fieldset>
+                <legend>
+                    <h1>Contacto</h1>
+                </legend>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Introduce tu nombre..." minlength="3"
+                    maxlenght="30" required /> <br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos..."
+                    minlength="3" maxlenght="30" required /> <br>
+                <label for="Sexo">Sexo: </label><br>
+                <input type="radio" name="sexo" id="size_1" value="small" />Femenino
+                <input type="radio" name="sexo" id="size_2" value="medium" />Masculino <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Introduce tu email..." required /><br>
+                <label for="tlf">Telefono:</label>
+                <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                    placeholder="Introduce telefono..." required /> <br>
+                <label for="comentarios">Comentarios: </label><br>
+                <textarea name="comentarios" id="comment" cols="30" rows="10"
+                    placeholder="Introduce tus comentarios..."></textarea><br>
+                <label for="spam"><input type="checkbox" id="spam" value="spam" name="spam" /> Doy permiso al
+                    uso de mis datos.</label><br>
+                <div id="botonForm" class="botones">
+                    <a href="../pages/respuesta.html"><b>Enviar</b></a>
+                </div>
+            </fieldset><br>
+        </form>
+        </p>
+    </main>
+    <!--     <footer class="piePagina">
+        <ul class="botonSecundario">
+            <li><a href="./portfolio.html"><b>Previo</b></a></li>
+            <li><a href="#"><b>Inicio</b></a></li>
+        </ul>
+    </footer> -->
+</body>
+
+</html>
