@@ -38,10 +38,13 @@ body {
 }
 
 body .cuerpoPagina {
-
-    margin-bottom: 70px;
     display: flex;
+    margin-bottom: 70px;
     width: 80%;
+    
+    justify-content: center;
+    justify-items: center;
+    align-content:center;
 }
 
 header>nav>ul>li {
@@ -95,7 +98,6 @@ footer .botones>li {
     width: 75%;
     padding: 20px;
     margin: 20px;
-
     display: flex;
     border-radius: 5%;
 }
